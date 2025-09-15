@@ -1,2 +1,34 @@
-# TFM_Data_Pipeline
-LinkedIn Jobs Data Pipeline Pipeline de datos en Databricks + Azure para la ingesta, limpieza y modelado de ofertas de empleo de LinkedIn en España, siguiendo la arquitectura Bronze → Silver → Gold y con visualización final en Power BI.
+# LinkedIn Jobs Data Pipeline  
+
+Este repositorio contiene un **pipeline de datos de extremo a extremo** desarrollado en **Databricks + Azure**, que procesa ofertas de empleo de **LinkedIn** y las disponibiliza para su análisis en **Power BI**.  
+
+## 🚀 Funcionalidades principales  
+- Ingesta de ofertas de empleo desde LinkedIn (staging → bronze).  
+- Limpieza y estandarización de datos en la capa **Silver**.  
+- Modelado dimensional en la capa **Gold** (tablas de hechos y dimensiones).  
+- Almacenamiento en **Azure Data Lake (Delta Lake)**.  
+- Parametrización:  
+  - Tipo de empleo (Data Scientist, Data Engineer, etc.).  
+  - Frecuencia de ejecución (diaria o mensual).  
+- Visualización final en **Power BI**.  
+
+## 🏗️ Arquitectura  
+El pipeline sigue la estructura **medallion** (Bronze → Silver → Gold):  
+
+1. **Job Ingesta** → captura de datos y almacenamiento en *Bronze*.  
+2. **Job Limpieza** → transformaciones y normalización (*Silver*).  
+3. **Job Modelado** → creación de tablas optimizadas para BI (*Gold*).  
+
+
+## 🛠️ Tecnologías utilizadas  
+- **Azure Data Lake Storage (ADLS)**  
+- **Databricks (PySpark, Delta Lake, Jobs)**  
+- **Python**  
+- **Power BI**  
+
+## 📊 Resultados  
+- Tablas limpias y optimizadas listas para BI.  
+- Dashboard interactivo en Power BI mostrando métricas del mercado laboral.  
+
+## 📜 Licencia  
+Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.  
