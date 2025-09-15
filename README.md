@@ -26,9 +26,5 @@ El pipeline sigue la estructura **medallion** (Bronze → Silver → Gold):
 - **Python**  
 - **Power BI**  
 
-## 📊 Resultados  
-- Tablas limpias y optimizadas listas para BI.  
-- Dashboard interactivo en Power BI mostrando métricas del mercado laboral.  
-
 ## 📜 Licencia  
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.  
