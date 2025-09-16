@@ -28,7 +28,7 @@ El pipeline sigue la estructura **medallion** (Bronze → Silver → Gold):
 
 ## 🖼️ Diagrama del Pipeline
 
-![Diagrama del pipeline](./Diagrama sin título.drawio.png)
+![Diagrama del pipeline](./Diagrama.png)
 
 ## 📜 Licencia  
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.  
