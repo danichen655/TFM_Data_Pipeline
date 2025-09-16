@@ -24,7 +24,11 @@ El pipeline sigue la estructura **medallion** (Bronze → Silver → Gold):
 - **Azure Data Lake Storage (ADLS)**  
 - **Databricks (PySpark, Delta Lake, Jobs)**  
 - **Python**  
-- **Power BI**  
+- **Power BI**
+
+## 🖼️ Diagrama del Pipeline
+
+![Diagrama del pipeline](./Diagrama sin título.drawio.png)
 
 ## 📜 Licencia  
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.  
